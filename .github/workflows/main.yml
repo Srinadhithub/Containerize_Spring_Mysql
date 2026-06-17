@@ -3,4 +3,4 @@ jobs:
   Explore:
     runs-on: ubuntu-latest
       steps:
-      run : echo "Stareted !!"
+      - run : echo "Stareted !!"
