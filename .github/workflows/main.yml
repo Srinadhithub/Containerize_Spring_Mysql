@@ -1,11 +1,11 @@
 on : [push]
 jobs:
-  Explore 1:
+  Explore_1:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Stareted !!"
       - run: echo "Completed !"
-  Explore 2:
+  Explore_2:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Stareted 2!!"
