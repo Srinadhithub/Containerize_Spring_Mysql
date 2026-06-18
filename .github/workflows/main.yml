@@ -2,5 +2,6 @@ on : [push]
 jobs:
   Explore:
     runs-on: ubuntu-latest
-      steps:
-        - run : echo "Stareted !!"
+    steps:
+      - run: echo "Stareted !!"
+      - run: echo "Completed !"
